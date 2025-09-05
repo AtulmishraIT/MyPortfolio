@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 "use client"
 
 import React, { useState, useEffect, useRef } from "react"
@@ -106,13 +107,22 @@ function App() {
 
   const projects = [
     {
+      title: "School management website",
+      description: "A responsive School management website built with MERN",
+      image: "https://via.placeholder.com/350x200",
+      video: "https://www.youtube.com/embed/5xlAztfMaTg",
+      github: "https://github.com/AtulmishraIT/school-management",
+      demo: "https://school-management-atulmishra.vercel.app",
+      tags: ["React", "tailwindCSS", "JavaScript", "Node.js", "MongoDB","ExpressJS"],
+    },
+    {
       title: "Restaurant Website",
-      description: "A responsive restaurant website built with React",
+      description: "A responsive restaurant website built with MERN",
       image: "https://via.placeholder.com/350x200",
       video: "https://www.youtube.com/embed/5xlAztfMaTg",
       github: "https://github.com/AtulmishraIT/user-restaurant",
       demo: "#",
-      tags: ["React", "tailwindCSS", "Node.js", "MongoDB"],
+      tags: ["React", "tailwindCSS", "JavaScript", "Node.js", "MongoDB","ExpressJS"],
     },
     {
       title: "Snake Game",
@@ -149,7 +159,7 @@ function App() {
       company: "",
       period: "",
       description:
-        "Searching for Good Company to start my career as a Frontend Developer. I am a quick learner and eager to contribute to a dynamic team.",
+        "Searching for Good Company to start my career as a MERN stack Developer. I am a quick learner and eager to contribute to a dynamic team.",
     },
   ]
 
@@ -158,7 +168,7 @@ function App() {
       degree: "Bachelor of Science in Information Technology",
       institution: "University of Mumbai",
       period: "2022 - 2025",
-      description: "Graduated with honors. Specialized in web development and Frontend Devolper.",
+      description: "Graduated with honors. Specialized in web development and MERN stack Devolper.",
     },
     {
       degree: "HSC",
@@ -409,7 +419,7 @@ function App() {
                   transition={{ duration: 0.8, delay: 0.5 }}
                   className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8"
                 >
-                  Frontend Developer & UI/UX Enthusiast
+                  MERN stack Developer
                 </motion.p>
 
                 <motion.div
@@ -493,7 +503,7 @@ function App() {
                   className="space-y-6"
                 >
                   <motion.p variants={itemFade} className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                    I am a passionate Frontend Developer with expertise in building responsive and user-friendly web
+                    I am a passionate MERN stack Developer with expertise in building responsive and user-friendly web
                     applications. With a strong foundation in modern JavaScript frameworks and libraries, I create
                     engaging digital experiences that solve real-world problems.
                   </motion.p>
